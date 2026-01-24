@@ -13,7 +13,9 @@ Open `rtl/practice.v` and complete the module by:
 3. Instantiating the `inc` module as `U2`
 4. Instantiating the `mux` module as `U3`
 
-Refer to the RTL diagram (`practice1.png`) for the correct port connections.
+Refer to the RTL diagram for the correct port connections.
+
+![RTL Diagram](practice1.png)
 
 ## Module Reference
 
