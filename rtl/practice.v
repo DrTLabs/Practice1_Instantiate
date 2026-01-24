@@ -11,15 +11,12 @@ module practice(
 
 
     // TODO: Instantiate the sum module as U1
-    //       Connect ports: .a(X), .b(Y), .c(W0)
 
 
     // TODO: Instantiate the inc module as U2
-    //       Connect ports: .q(X), .r(W1)
 
 
     // TODO: Instantiate the mux module as U3
-    //       Connect ports: .x0(X), .x1(Y), .x2(W0), .x3(W1), .sel(sel), .v(Z)
 
 
 endmodule
