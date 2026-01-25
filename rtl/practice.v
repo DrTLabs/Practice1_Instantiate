@@ -1,10 +1,7 @@
 `timescale 1ns / 1ps
 
 module practice(
-    input  [3:0] X,
-    input  [3:0] Y,
-    input  [1:0] sel,
-    output [3:0] Z
+    //TODO Declare the PORTs
 );
 
     // TODO: Declare internal wires W0 and W1 (both 4 bits wide)
