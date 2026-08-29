@@ -8,10 +8,12 @@ In this exercise you will practice **instantiating modules** by connecting pre-b
 
 Open `rtl/practice.v` and complete the module by:
 
-1. Declaring two internal 4-bit wires: `W0` and `W1`
-2. Instantiating the `sum` module as `U1`
-3. Instantiating the `inc` module as `U2`
-4. Instantiating the `mux` module as `U3`
+1. Declaring the module's ports (the testbench expects exactly these names):
+   `input [3:0] X`, `input [3:0] Y`, `input [1:0] sel`, `output [3:0] Z`
+2. Declaring two internal 4-bit wires: `W0` and `W1`
+3. Instantiating the `sum` module as `U1`
+4. Instantiating the `inc` module as `U2`
+5. Instantiating the `mux` module as `U3`
 
 Refer to the RTL diagram for the correct port connections.
 
@@ -45,4 +47,4 @@ vvp sim.vvp
 
 ## Submission
 
-Your assignment passes when the GitHub Actions workflow shows a green checkmark (all tests pass).
+Work entirely on GitHub if you like: open `rtl/practice.v` in your repository, click the pencil (edit) icon, make your changes, and **Commit changes**. Then open the **Actions** tab. Your assignment passes when the GitHub Actions workflow shows a green checkmark (all tests pass). Nothing is submitted in Canvas.
